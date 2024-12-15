@@ -1,0 +1,15 @@
+This repository consist of 7 python files:
+RandomForest.py, SVM.py, NN.py, Random.py (1)
+RandomForestPretrained.py, SVMPretrained.py, NNPretrained.py (2)
+3 saved models
+random_forest_model.pkl, svm_model.pkl, Neural_Net.model
+
+Files at (1) shows how the algorithms work and saves model after training
+Files at (2) has code to run the pretrained model
+Folder SampleTest consist 2 images to test the classifier, named 0.png and 1.png (0= Non cancerous , 1=Cancerous)
+
+In order to replicate result please run files from (1) or use files (2) to use the pretrained models
+
+Dataset to train the model can be found here: https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images/data
+
+Please make sure dataset and python files are in correct directory.
